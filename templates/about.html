@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block aboutactive %}active{% endblock aboutactive %}
+{% block title %}About{% endblock title %}
+{% block body %}
+    <div class="container my-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://source.unsplash.com/900x300/?nature,water" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/900x300/?laptop,programming" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://source.unsplash.com/900x300/?office,girl,django" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <h2 class="text-center">About Myself</h2>
+    </div>
+    <p class="text-center">This is raeena firdous and I am a computer science engineering graduate<br>working here at
+        mindsnext as an ML engineer, I joined mindsnext as an intern <br> and worked on the academic project i.e.,
+        “student performance prediction in online courses using ml algorithms”<br> as well I carried out my internship
+        on machine learning <br>then I got opportunity to work here as an employee. <br>Recently I did my capstone
+        project on ml use case i.e., “employee attrition prediction”<br> in collaboration with other two members under
+        the guidance of zac liu, head of AI research at Andromeda360. Thank you……</p>
+
+{% endblock body %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block projectactive %}active{% endblock projectactive %}
+{% block title %}Project{% endblock title %}
+{% block body %}
+
+  <div class="container">
+    <h2 class="text-center">My Projects</h2><br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card" style="width: 23rem;">
+          <img src="https://source.unsplash.com/500x300/?nature,flower" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Internship Project</h5><br>
+            <p class="card-text"><b>Hand Gesture Control</b> - The aim of the project is to recognize the left hand or
+              right hand in real-time.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 23rem;">
+          <img src="https://source.unsplash.com/500x300/?nature,tiger" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Final Year Academic Project</h5><br>
+            <p class="card-text"><b>Students Performance Prediction In Online Courses Using Machine Learning
+                Algorithms</b> - This project purpose is to predict the students performance in online courses in this
+              the students learning rate is evaluated by using set computer marked assessments. In particular, the
+              computer gives immediate feedback to the student once he or she completes the online assessments.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 23rem;">
+          <img src="https://source.unsplash.com/500x300/?nature,tree" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project during training</h5><br>
+            <p class="card-text"><b>Employee Attrition Prediction using ML</b> - In this project we uncover the factors
+              that lead to employee attrition through Exploratory Data Analysis, and explore them by using various
+              classification models to predict if an employee is likely to quit. This could greatly increase the HR’s
+              ability to intervene on time and remedy the situation to prevent attrition.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock body %}
